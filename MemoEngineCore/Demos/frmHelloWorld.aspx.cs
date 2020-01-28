@@ -13,5 +13,12 @@ namespace MemoEngineCore
         {
 
         }
+
+        protected void btnClick_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = txtInput.Text;
+            txtInput.Text = string.Empty;
+
+        }
     }
 }
